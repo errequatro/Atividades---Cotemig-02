@@ -241,14 +241,14 @@ H5 {
 #busca-form {
     display: flex;
     flex-direction: row;
-    width: 75%;
+    width: 80%;
     height: 52px;
     border: 1px solid #d1d1d1;
 }
 
 #busca-form>div {
     display: flex;
-    width: 50%;
+    width: 35%;
     font-size: 16px;
     color: #1c1c1c;
     font-weight: 700;
@@ -268,12 +268,11 @@ H5 {
 }
 
 #busca-form input {
-    width: 70%;
+    width: 54%;
     border: none;
     height: 48px;
     font-size: 16px;
     color: #b2b2b2;
-    padding-left: 20px;
 }
 
 #arrow-botton-icon {
@@ -289,8 +288,27 @@ H5 {
 }
 
 #busca-phone {
-    
-    width: 18%;
+    width: 40%;
+    display: flex;
+    height: 52px;
+}
+
+#busca-phone-tel{
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#busca-phone-num h5{
+    color: #1c1c1c;
+    font-weight: 700;
+    letter-spacing: 0;
 }
 
 #icon-phone {
