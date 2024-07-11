@@ -1250,3 +1250,264 @@ input {
 #footer-copy-right {
     padding-left: 37%;
 }
+
+.main-curta {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 80px 80px 164px 2263px 413px;
+    column-gap: 25px;
+}
+
+.main-curta div {
+    border: solid 1px;
+}
+
+#menu-curto {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#menu-dropdown-select-curto {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    grid-template-rows: 47px 429px;
+    align-items: center;
+    height: 47px;
+    background-color: #7fad39;
+    position: relative;
+}
+
+#menu-curto>div>h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 140px;
+}
+
+#organi-shop {
+    grid-row: 3;
+    grid-column: 1/7;
+    background-image: url(img/breadcrumb.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#organi-shop-titulo h2{
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#organi-shop-sub-titulo a {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#organi-shop-sub-titulo span {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#shop-section {
+    grid-row: 4;
+    grid-column: 1/7;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 80px 43px 65px 80px;
+}
+
+#column-left {
+    grid-row: 2;
+    grid-column: 2;
+}
+ 
+#column-left h4{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+#column-left ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+#column-left ul li {
+    list-style: none;
+}
+
+#column-left ul li a {
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 39px;
+    display: block;
+    text-decoration: none;
+}
+
+#red {
+    width: 262px;
+    height: 5px;
+    background-color: red;
+}
+
+#column-left h1 {
+    font-size: 16px;
+    color: #dd2222;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 35px;
+}
+
+#colors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 32px 32px 32px;
+    margin-bottom: 35px;
+}
+
+#color-1 {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+}
+
+#white-ball{
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#color-2 {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+}
+
+#red-ball{
+    background-color: red;
+    border: none;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#color-3 {
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+}
+
+#blue-ball{
+    background-color: #249BC8;
+    border: none;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#color-4 {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+}
+
+#yellow-ball{
+    background-color: #E9A625;
+    border: none;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#color-5 {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+}
+
+#black-ball{
+    background-color: black;
+    border: none;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#color-6 {
+    grid-row: 3;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+}
+
+#green-ball{
+    background-color: #3CC032;
+    border: none;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+#buttons-size{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 32px 32px;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+#button01{
+    grid-row: 1;
+    grid-column: 1;
+    border: none;
+}
+
+#button02{
+    grid-row: 2;
+    grid-column: 1;
+    border: none;
+}
+
+#button03{
+    grid-row: 1;
+    grid-column: 2;
+    border: none;
+}
+
+#button04{
+    grid-row: 2;
+    grid-column: 2;
+    border: none;
+}
+
+#footer-shop {
+    grid-row: 5;
+    grid-column: 1/7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1.2fr 1fr;
+    grid-template-rows: 70px 271px 72px;
+    background-color: #F3F6FA;
+}
