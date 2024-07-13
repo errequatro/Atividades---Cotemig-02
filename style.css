@@ -1538,25 +1538,33 @@ input {
 #product-discount-01 {
     grid-row: 4;
     grid-column: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(img/pd-1.jpg);
+    
 }
 
 #product-discount-02 {
     grid-row: 4;
     grid-column: 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(img/pd-2.jpg);
 }
 
 #product-discount-03 {
     grid-row: 4;
     grid-column: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(img/pd-3.jpg);
+}
+
+.product_discount_percent {
+    height: 45px;
+    width: 45px;
+    background: #dd2222;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 #product-desc {
