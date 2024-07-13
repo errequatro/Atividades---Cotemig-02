@@ -54,13 +54,13 @@
             <p>Login</p>
         </div>
     </header>
-    <div class="main">
+    <div class="main-blog">
         <div id="logo">
             <img id="main-logo-img" src="img/logo.png" alt="">
         </div>
         <div id="nav">
             <div id="nav-menu">
-                <a href="index.html">HOME</a>
+                <a class="selected" href="index.html">HOME</a>
                 <a href="shop.html">SHOP</a>
                 <a href="#">PAGES</a>
                 <a href="blog.html">BLOG</a>
@@ -95,9 +95,8 @@
                 </p>
             </div>
         </div>
-        <div id="menu">
-            <div id="menu-dropdown-select">
-                <input type="checkbox" id="checkbox-sel">
+        <div id="menu-curto">
+            <div id="menu-dropdown-select-curto">
                 <svg id="bars-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">0
                     <path fill="#ffffff"
                         d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
@@ -107,22 +106,6 @@
                     <path fill="#ffffff"
                         d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
                 </svg>
-
-                <div id="menu-dropdown">
-                    <ul>
-                        <li>Fresh Meat</li>
-                        <li>Vegetables</li>
-                        <li>Fruit & Nut Gifts</li>
-                        <li>Fresh Berries</li>
-                        <li>Ocean Foods</li>
-                        <li>Butter & Eggs</li>
-                        <li>Fastfood</li>
-                        <li>Fresh Onion</li>
-                        <li>Papayaya & Crisps</li>
-                        <li>Oatmeal</li>
-                        <li>Fresh Bananas</li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div id="busca">
@@ -153,238 +136,90 @@
                 </div>
             </div>
         </div>
-        <div id="banner">
-            <div id="banner-text">
-                <span>
-                    FRUIT FRESH
-                </span>
-                <h2>
-                    Vegetable 100% Organic
-                </h2>
-                <p>
-                    Free Pickup and Delivery Available
-                </p>
-                <button>
-                    SHOP NOW
-                </button>
+        <div id="organi-shop">
+            <div id="organi-shop-titulo">
+                <h2>Blog</h2>
+            </div>
+            <div id="organi-shop-sub-titulo">
+                <a href="index.html">Home-</a>
+                <span>Blog</span>
             </div>
         </div>
-        <div id="prod01">
-            <H5>FRESH FRUIT</H5>
-        </div>
-        <div id="prod02">
-            <H5>DRIED FRUIT</H5>
-        </div>
-        <div id="prod03">
-            <H5>VEGETABLES</H5>
-        </div>
-        <div id="prod04">
-            <H5>DRINK FRUITS</H5>
-        </div>
-        <div id="product-top">
-            <h2>Featuref Product</h2>
-            <div id="green-line"></div>
-            <div id="product-selection">
-                <a href="#" id="product-selection-select">All</a>
-                <a href="#">Oranges</a>
-                <a href="#">Fresh Meat</a>
-                <a href="#">Vegetable</a>
-                <a href="#">Fastfood</a>
-            </div>
-        </div>
-        <div id="products-value">
-            <div id="product01"></div>
-            <div id="price-prod01">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product02"></div>
-            <div id="price-prod02">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product03"></div>
-            <div id="price-prod03">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product04"></div>
-            <div id="price-prod04">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product05"></div>
-            <div id="price-prod05">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product06"></div>
-            <div id="price-prod06">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product07"></div>
-            <div id="price-prod07">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product08"></div>
-            <div id="price-prod08">
-                <a href="#">Crab Pool Security</a>
-                <h3>$30.00</h5>
-            </div>
-            <div id="product-banner01"></div>
-            <div id="product-banner02"></div>
-        </div>
-        <div id="latest-products">
-            <div id="latest-products-title1">
-                <div id="latest-products-title1-txt">
-                    <h4>Latest Products</h4>
-                </div>
-                <div id="latest-products-title1-arrows">
-                    <button id="latest-products-title1-arrow-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-                        </svg>
-                    </button>
-                    <button id="latest-products-title1-arrow-right">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-                        </svg>
+        <div class="blog-section">
+            <div id="left-column">
+                <div id="left-column-search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">
+                        <span>
+                            <svg id="search-icon" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#b2b2b2"
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                            </svg>
+                        </span>
                     </button>
                 </div>
-            </div>
-            <div id="latest-products-column1-a">
-                <div><img src="img/lp-1.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Beauty (20)</a></li>
+                    <li><a href="#">Food (5)</a></li>
+                    <li><a href="#">Life Style (9)</a></li>
+                    <li><a href="#">Travel (10)</a></li>
+                </ul>
+                <h4>Recent News</h4>
+                <div id="recent-news">
+                    <a href="#" id="recent-news-item">
+                        <div id="recent-news-item-img"><img src="img/sr-1.jpg.webp" alt=""></div>
+                        <div id="recent-news-item-txt"> 
+                            <h6>
+                                09 Kinds Of Vegetables
+                                <br>
+                                Protect The Liver
+                            </h6>
+                            <span>MAR 05, 2019</span>
+                        </div>
+                    </a>
+                    <a href="#" id="recent-news-item">
+                        <div id="recent-news-item-img"><img src="img/sr-2.jpg.webp" alt=""></div>
+                        <div id="recent-news-item-txt"> 
+                            <h6>
+                                Tips You To Balance
+                                <br>
+                                Nutrition Meal Day
+                            </h6>
+                            <span>MAR 05, 2019</span>
+                        </div>
+                    </a>
+                    <a href="#" id="recent-news-item">
+                        <div id="recent-news-item-img"><img src="img/sr-3.jpg.webp" alt=""></div>
+                        <div id="recent-news-item-txt"> 
+                            <h6>
+                                4 Principles Help You Lose 
+                                <br>
+                                Weight With Vegetables
+                            </h6>
+                            <span>MAR 05, 2019</span>
+                        </div>
+                    </a>
+                </div>
+                <h4>Search By</h4>
+                <div id="blog-item-tags">
+                    <a href="#">Apple</a>
+                    <a href="#">Beauty</a>
+                    <a href="#">Vegetables</a>
+                    <a href="#">Fruit</a>
+                    <a href="#">Healthy Food</a>
+                    <a href="#">Lifestyle</a>
                 </div>
             </div>
-            <div id="latest-products-column1-b">
-                <div><img src="img/lp-2.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-column1-c">
-                <div><img src="img/lp-3.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-title2">
-                <div id="latest-products-title2-txt">
-                    <h4>Top Rated Products</h4>
-                </div>
-                <div id="latest-products-title2-arrows">
-                    <button id="latest-products-title2-arrow-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-                        </svg>
-                    </button>
-                    <button id="latest-products-title2-arrow-right">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <div id="latest-products-column2-a">
-                <div><img src="img/lp-1.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-column2-b">
-                <div><img src="img/lp-2.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-column2-c">
-                <div><img src="img/lp-3.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-title3">
-                <div id="latest-products-title3-txt">
-                    <h4>Top Rated Products</h4>
-                </div>
-                <div id="latest-products-title3-arrows">
-                    <button id="latest-products-title3-arrow-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-                        </svg>
-                    </button>
-                    <button id="latest-products-title3-arrow-right">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="#000000"
-                                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <div id="latest-products-column3-a">
-                <div><img src="img/lp-1.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-column3-b">
-                <div><img src="img/lp-2.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-            <div id="latest-products-column3-c">
-                <div><img src="img/lp-3.jpg" alt=""></div>
-                <div>
-                    <h6>Crab Pool Security</h6>
-                    <span>$30.00</span>
-                </div>
-            </div>
-        </div>
-        <div id="blog">
-            <div id="blog-top">
-                <h2>Featuref Product</h2>
-                <div id="green-line"></div>
-            </div>
-            <div id="blog-img1"><img src="img/blog-1.jpg" alt=""></div>
-            <div id="blog-img2"><img src="img/blog-2.jpg" alt=""></div>
-            <div id="blog-img3"><img src="img/blog-3.jpg" alt=""></div>
-            <div id="blog-img-description1">
-                <span>
-                    <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="#b2b2b2"
-                            d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                    </svg>
-                    <a>May 4,2019</a>
-                    <svg id="comment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="#b2b2b2"
-                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
-                    </svg>
-                    <a>5</a>
-                </span>
-                <h3>
-                    Cooking tips make cooking simple
-                </h3>
-                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-            </div>
-            <div id="blog-img-description2">
+            <div id="img1-blog"><img src="img/blog-2.jpg" alt=""></div>
+            <div id="img2-blog"><img src="img/blog-3.jpg" alt=""></div>
+            <div id="img3-blog"><img src="img/blog-1.jpg" alt=""></div>
+            <div id="img4-blog"><img src="img/blog-4.jpg.webp" alt=""></div>
+            <div id="img5-blog"><img src="img/blog-4.jpg.webp" alt=""></div>
+            <div id="img6-blog"><img src="img/blog-6.jpg.webp" alt=""></div>
+            <div id="blog-img1-description" class="blog-desc">
                 <span>
                     <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path fill="#b2b2b2"
@@ -401,8 +236,15 @@
                     6 ways to prepare breakfast for 30
                 </h3>
                 <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
             </div>
-            <div id="blog-img-description3">
+            <div id="blog-img2-description" class="blog-desc">
                 <span>
                     <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path fill="#b2b2b2"
@@ -418,10 +260,129 @@
                 <h3>
                     Visit the clean farm in the US
                 </h3>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
+            </div>
+            <div id="blog-img3-description" class="blog-desc">
+                <span>
+                    <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                    </svg>
+                    <a>May 4,2019</a>
+                    <svg id="comment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#b2b2b2"
+                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                    </svg>
+                    <a>5</a>
+                </span>
+                <h3>
+                    Cooking tips make cooking simple
+                </h3>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
+            </div>
+            <div id="blog-img4-description" class="blog-desc">
+                <span>
+                    <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                    </svg>
+                    <a>May 4,2019</a>
+                    <svg id="comment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#b2b2b2"
+                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                    </svg>
+                    <a>5</a>
+                </span>
+                <h3>
+                    Cooking tips make cooking simple
+                </h3>
                 <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
+            </div>
+            <div id="blog-img5-description" class="blog-desc">
+                <span>
+                    <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                    </svg>
+                    <a>May 4,2019</a>
+                    <svg id="comment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#b2b2b2"
+                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                    </svg>
+                    <a>5</a>
+                </span>
+                <h3>
+                    The Moment You Need To Remove Garlic From The Menu
+                </h3>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
+            </div>
+            <div id="blog-img6-description" class="blog-desc">
+                <span>
+                    <svg id="calendar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                    </svg>
+                    <a>May 4,2019</a>
+                    <svg id="comment-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#b2b2b2"
+                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                    </svg>
+                    <a>5</a>
+                </span>
+                <h3>
+                    Cooking tips make cooking simple
+                </h3>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                <a href="#" class="blog-img-btn">
+                    READ MORE 
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
+            </div>
+            <div id="line2"></div>
+            <div id="blog-section-pages">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">
+                    <svg id="arrow-icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="#b2b2b2"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </a>
             </div>
         </div>
-        <div id="footer">
+        <div id="footer-blog">
             <div id="footer-address">
                 <img src="img/logo.png" alt="">
                 <ul>
